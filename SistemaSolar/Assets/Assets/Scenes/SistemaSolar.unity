@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 236988895}
   - component: {fileID: 236988898}
   - component: {fileID: 236988899}
+  - component: {fileID: 236988900}
   m_Layer: 0
   m_Name: Mercurio
   m_TagString: Untagged
@@ -191,7 +192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1492908089}
-  speed: 1
+  speed: 4.152031
 --- !u!96 &236988899
 TrailRenderer:
   serializedVersion: 2
@@ -225,7 +226,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 20
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
@@ -244,7 +245,7 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.21323532, g: 0.8372209, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 0.88235295}
+      key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -275,8 +276,21 @@ TrailRenderer:
     alignment: 0
     textureMode: 0
     generateLightingData: 0
-  m_MinVertexDistance: 0.1
+  m_MinVertexDistance: 0
   m_Autodestruct: 0
+--- !u!114 &236988900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 236988894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ec7221855c3b640996b28242f45b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 236988897}
+  speed: 100
 --- !u!1 &426887836
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,6 +303,7 @@ GameObject:
   - component: {fileID: 426887837}
   - component: {fileID: 426887840}
   - component: {fileID: 426887841}
+  - component: {fileID: 426887842}
   m_Layer: 0
   m_Name: Netuno
   m_TagString: Untagged
@@ -360,7 +375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1492908089}
-  speed: 1
+  speed: 0.01067961
 --- !u!96 &426887841
 TrailRenderer:
   serializedVersion: 2
@@ -394,7 +409,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 20
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
@@ -413,7 +428,7 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.21323532, g: 0.8372209, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 0.88235295}
+      key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -444,8 +459,21 @@ TrailRenderer:
     alignment: 0
     textureMode: 0
     generateLightingData: 0
-  m_MinVertexDistance: 0.1
+  m_MinVertexDistance: 0
   m_Autodestruct: 0
+--- !u!114 &426887842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 426887836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ec7221855c3b640996b28242f45b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 426887839}
+  speed: 100
 --- !u!1 &564964877
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,6 +486,7 @@ GameObject:
   - component: {fileID: 564964878}
   - component: {fileID: 564964879}
   - component: {fileID: 564964882}
+  - component: {fileID: 564964883}
   m_Layer: 0
   m_Name: Terra
   m_TagString: Untagged
@@ -564,7 +593,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 20
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
@@ -583,7 +612,7 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.21323532, g: 0.8372209, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 0.88235295}
+      key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -614,8 +643,21 @@ TrailRenderer:
     alignment: 0
     textureMode: 0
     generateLightingData: 0
-  m_MinVertexDistance: 0.1
+  m_MinVertexDistance: 0
   m_Autodestruct: 0
+--- !u!114 &564964883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 564964877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ec7221855c3b640996b28242f45b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 564964881}
+  speed: 100
 --- !u!1 &584267840
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,6 +670,7 @@ GameObject:
   - component: {fileID: 584267841}
   - component: {fileID: 584267844}
   - component: {fileID: 584267845}
+  - component: {fileID: 584267846}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Untagged
@@ -699,7 +742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1492908089}
-  speed: 1
+  speed: 1.6260163
 --- !u!96 &584267845
 TrailRenderer:
   serializedVersion: 2
@@ -733,7 +776,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 20
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
@@ -752,7 +795,7 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.21323532, g: 0.8372209, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 0.88235295}
+      key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -783,8 +826,21 @@ TrailRenderer:
     alignment: 0
     textureMode: 0
     generateLightingData: 0
-  m_MinVertexDistance: 0.1
+  m_MinVertexDistance: 0
   m_Autodestruct: 0
+--- !u!114 &584267846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 584267840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ec7221855c3b640996b28242f45b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 584267843}
+  speed: 100
 --- !u!1 &636841988
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,6 +987,7 @@ GameObject:
   - component: {fileID: 1130885527}
   - component: {fileID: 1130885530}
   - component: {fileID: 1130885531}
+  - component: {fileID: 1130885532}
   m_Layer: 0
   m_Name: Saturno
   m_TagString: Untagged
@@ -1002,7 +1059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1492908089}
-  speed: 1
+  speed: 0.1394433
 --- !u!96 &1130885531
 TrailRenderer:
   serializedVersion: 2
@@ -1036,7 +1093,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 20
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
@@ -1055,7 +1112,7 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.21323532, g: 0.8372209, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 0.88235295}
+      key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1086,8 +1143,21 @@ TrailRenderer:
     alignment: 0
     textureMode: 0
     generateLightingData: 0
-  m_MinVertexDistance: 0.1
+  m_MinVertexDistance: 0
   m_Autodestruct: 0
+--- !u!114 &1130885532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1130885526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ec7221855c3b640996b28242f45b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1130885529}
+  speed: 100
 --- !u!1 &1251126374
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,6 +1170,7 @@ GameObject:
   - component: {fileID: 1251126375}
   - component: {fileID: 1251126378}
   - component: {fileID: 1251126379}
+  - component: {fileID: 1251126380}
   m_Layer: 0
   m_Name: Marte
   m_TagString: Untagged
@@ -1171,7 +1242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1492908089}
-  speed: 1
+  speed: 0.5316321
 --- !u!96 &1251126379
 TrailRenderer:
   serializedVersion: 2
@@ -1205,7 +1276,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 20
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
@@ -1224,7 +1295,7 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.21323532, g: 0.8372209, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 0.88235295}
+      key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1255,8 +1326,21 @@ TrailRenderer:
     alignment: 0
     textureMode: 0
     generateLightingData: 0
-  m_MinVertexDistance: 0.1
+  m_MinVertexDistance: 0
   m_Autodestruct: 0
+--- !u!114 &1251126380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1251126374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ec7221855c3b640996b28242f45b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1251126377}
+  speed: 100
 --- !u!1 &1396901740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1269,6 +1353,7 @@ GameObject:
   - component: {fileID: 1396901741}
   - component: {fileID: 1396901744}
   - component: {fileID: 1396901745}
+  - component: {fileID: 1396901746}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: Untagged
@@ -1340,7 +1425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1492908089}
-  speed: 1
+  speed: 0.3431703
 --- !u!96 &1396901745
 TrailRenderer:
   serializedVersion: 2
@@ -1374,7 +1459,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 20
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
@@ -1393,7 +1478,7 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.21323532, g: 0.8372209, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 0.88235295}
+      key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1424,8 +1509,21 @@ TrailRenderer:
     alignment: 0
     textureMode: 0
     generateLightingData: 0
-  m_MinVertexDistance: 0.1
+  m_MinVertexDistance: 0
   m_Autodestruct: 0
+--- !u!114 &1396901746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1396901740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ec7221855c3b640996b28242f45b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1396901743}
+  speed: 100
 --- !u!1 &1492908085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1521,6 +1619,7 @@ GameObject:
   - component: {fileID: 1709519815}
   - component: {fileID: 1709519818}
   - component: {fileID: 1709519819}
+  - component: {fileID: 1709519820}
   m_Layer: 0
   m_Name: "Plut\xE3o"
   m_TagString: Untagged
@@ -1592,7 +1691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1492908089}
-  speed: 1
+  speed: 0.005030633
 --- !u!96 &1709519819
 TrailRenderer:
   serializedVersion: 2
@@ -1626,7 +1725,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 20
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
@@ -1645,7 +1744,7 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.21323532, g: 0.8372209, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 0.88235295}
+      key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1676,8 +1775,21 @@ TrailRenderer:
     alignment: 0
     textureMode: 0
     generateLightingData: 0
-  m_MinVertexDistance: 0.1
+  m_MinVertexDistance: 0
   m_Autodestruct: 0
+--- !u!114 &1709519820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1709519814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ec7221855c3b640996b28242f45b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1709519817}
+  speed: 100
 --- !u!1 &1864955369
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,6 +1891,7 @@ GameObject:
   - component: {fileID: 2002246175}
   - component: {fileID: 2002246178}
   - component: {fileID: 2002246179}
+  - component: {fileID: 2002246180}
   m_Layer: 0
   m_Name: Urano
   m_TagString: Untagged
@@ -1850,7 +1963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1492908089}
-  speed: 1
+  speed: 0.0190334
 --- !u!96 &2002246179
 TrailRenderer:
   serializedVersion: 2
@@ -1884,7 +1997,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 20
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
@@ -1903,7 +2016,7 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.21323532, g: 0.8372209, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 0.88235295}
+      key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1934,5 +2047,18 @@ TrailRenderer:
     alignment: 0
     textureMode: 0
     generateLightingData: 0
-  m_MinVertexDistance: 0.1
+  m_MinVertexDistance: 0
   m_Autodestruct: 0
+--- !u!114 &2002246180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2002246174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ec7221855c3b640996b28242f45b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2002246177}
+  speed: 100
