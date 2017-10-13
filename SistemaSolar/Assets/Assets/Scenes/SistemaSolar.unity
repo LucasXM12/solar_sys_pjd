@@ -212,6 +212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   step: 5
+  timeStep: 1
 --- !u!82 &185694943
 AudioSource:
   m_ObjectHideFlags: 0
@@ -644,7 +645,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 320
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
@@ -1221,7 +1222,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 40
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
@@ -1992,7 +1993,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 40
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
@@ -2313,7 +2314,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 640
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
@@ -2523,7 +2524,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 160
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.375
