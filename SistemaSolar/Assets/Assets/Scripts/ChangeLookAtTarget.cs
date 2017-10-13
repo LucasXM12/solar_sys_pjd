@@ -10,7 +10,7 @@ public class ChangeLookAtTarget: MonoBehaviour {
 	}
 
 	void OnMouseDown() {
-		LookAtTarget.target = target;
-		Camera.main.fieldOfView = 60 * target.transform.localScale.x;
+		FollowTarget.target = this.gameObject;
+		FollowTarget.inc = Vector3.zero;
 	}
 }
