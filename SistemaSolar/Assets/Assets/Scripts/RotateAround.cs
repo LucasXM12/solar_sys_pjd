@@ -2,8 +2,8 @@
 
 public class RotateAround: MonoBehaviour {
 
-	public Transform target; // the object to rotate around
-	public float speed; // the speed of rotation
+	public float speed;
+	public Transform target;
 
 	void Start() {
 		if (target == null)
