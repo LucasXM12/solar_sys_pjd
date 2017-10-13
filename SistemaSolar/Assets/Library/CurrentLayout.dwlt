@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 46
+  controlID: 112
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 0e270000
     m_LastClickedID: 9998
-    m_ExpandedIDs: 18fcffff00000000
+    m_ExpandedIDs: 1afcffff0000000040270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -421,9 +421,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.27687183, y: -29.258377, z: -0.006303847}
+    m_Target: {x: 5.3899097, y: -29.086004, z: 11.711431}
     speed: 2
-    m_Value: {x: 0.27687183, y: -29.258377, z: -0.006303847}
+    m_Value: {x: 5.3899097, y: -29.086004, z: 11.711431}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -446,13 +446,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Target: {x: -0.5577964, y: -0.018670797, z: 0.012552536, w: -0.8296728}
     speed: 2
-    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Value: {x: -0.5577964, y: -0.018670797, z: 0.012552536, w: -0.8296728}
   m_Size:
-    m_Target: 35.96472
+    m_Target: 64.67497
     speed: 2
-    m_Value: 35.96472
+    m_Value: 64.67497
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -501,19 +501,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Sounds
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Sounds
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\lucas\Desktop\solar_sys_pjd\SistemaSolar\Assets
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 66260000
-    m_LastClickedID: 9830
-    m_ExpandedIDs: 00000000c025000000ca9a3bffffff7f
+    m_SelectedIDs: ea260000
+    m_LastClickedID: 9962
+    m_ExpandedIDs: 00000000c225000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -541,7 +541,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c0250000
+    m_ExpandedIDs: 00000000c2250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

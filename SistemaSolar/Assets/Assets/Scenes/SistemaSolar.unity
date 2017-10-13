@@ -121,6 +121,8 @@ GameObject:
   - component: {fileID: 185694938}
   - component: {fileID: 185694937}
   - component: {fileID: 185694942}
+  - component: {fileID: 185694943}
+  - component: {fileID: 185694944}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -210,6 +212,108 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   step: 5
+--- !u!82 &185694943
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 185694936}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5e6c5f1209f32b54599b68f3bb90dca1, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &185694944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 185694936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4fd0e3ef0b5863468c797356922c67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musics:
+  - {fileID: 8300000, guid: 5e6c5f1209f32b54599b68f3bb90dca1, type: 3}
+  - {fileID: 8300000, guid: 41fc5547b49a080409d9474975a27559, type: 3}
+  - {fileID: 8300000, guid: 8e212360d2ca3af4baf809ce8df9b0fd, type: 3}
+  - {fileID: 8300000, guid: 7bb07350236b17a4d88fc7e4c2d9f038, type: 3}
+  - {fileID: 8300000, guid: dd3b06af6c67da843bf5d2ffb0f9d779, type: 3}
+  - {fileID: 8300000, guid: 6f4af55798825664784b5f0a70c78edb, type: 3}
+  - {fileID: 8300000, guid: 33ee7f3ad2fb32b4a8356371049453bb, type: 3}
+  - {fileID: 8300000, guid: 8fddc18afc7224547a0a3ba445c21e0f, type: 3}
+  - {fileID: 8300000, guid: f2673d04e13214b4b82a761cb74c3168, type: 3}
+  - {fileID: 8300000, guid: f168ce522e222924b8da8aafee0e170f, type: 3}
 --- !u!1 &236988894
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,6 +510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8ba147cba288f4ba84e2d7a3e72aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 1
   target: {fileID: 0}
 --- !u!135 &236988902
 SphereCollider:
@@ -615,6 +720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8ba147cba288f4ba84e2d7a3e72aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 9
   target: {fileID: 0}
 --- !u!135 &426887844
 SphereCollider:
@@ -825,6 +931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8ba147cba288f4ba84e2d7a3e72aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 3
   target: {fileID: 0}
 --- !u!135 &564964885
 SphereCollider:
@@ -1034,6 +1141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8ba147cba288f4ba84e2d7a3e72aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 2
   target: {fileID: 0}
 --- !u!135 &584267848
 SphereCollider:
@@ -1203,6 +1311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8ba147cba288f4ba84e2d7a3e72aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 7
   target: {fileID: 0}
 --- !u!135 &598695149
 SphereCollider:
@@ -1412,6 +1521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8ba147cba288f4ba84e2d7a3e72aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 4
   target: {fileID: 0}
 --- !u!135 &636841996
 SphereCollider:
@@ -1748,6 +1858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8ba147cba288f4ba84e2d7a3e72aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 5
   target: {fileID: 0}
 --- !u!135 &1251126382
 SphereCollider:
@@ -1957,6 +2068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8ba147cba288f4ba84e2d7a3e72aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 6
   target: {fileID: 0}
 --- !u!135 &1396901748
 SphereCollider:
@@ -2067,6 +2179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8ba147cba288f4ba84e2d7a3e72aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 0
   target: {fileID: 0}
 --- !u!135 &1492908091
 SphereCollider:
@@ -2276,6 +2389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8ba147cba288f4ba84e2d7a3e72aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 4
   target: {fileID: 0}
 --- !u!135 &1709519822
 SphereCollider:
@@ -2485,6 +2599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8ba147cba288f4ba84e2d7a3e72aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 8
   target: {fileID: 0}
 --- !u!135 &2002246182
 SphereCollider:

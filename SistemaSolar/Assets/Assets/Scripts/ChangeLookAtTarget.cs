@@ -2,6 +2,7 @@
 
 public class ChangeLookAtTarget: MonoBehaviour {
 
+	public int id;
 	public GameObject target;
 
 	void Start() {
@@ -10,6 +11,8 @@ public class ChangeLookAtTarget: MonoBehaviour {
 	}
 
 	void OnMouseDown() {
+		MusicCtrl.musicNum = this.id;
+
 		FollowTarget.target = this.gameObject;
 		FollowTarget.inc = Vector3.zero;
 	}
